@@ -49,7 +49,7 @@
 	<body bgcolor="#FFFFEE" text="#800000" link="#0000EE" vlink="#0000EE">
 	<p align=right>
 		[<a href="/${conf.SELF_NAME}" target="_top">ホーム</a>]
-		[<a href="/${conf.SELF_NAME}?mode=admin">管理用</a>]
+		[<a href="/login">管理用</a>]
 	<p align=center>
 	<font color="#800000" size=5>
 	<b><SPAN>${conf.TITLE}</SPAN></b></font>

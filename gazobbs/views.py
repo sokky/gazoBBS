@@ -591,3 +591,9 @@ def show_bbs(request):
     count = get_log_count(request.db)
     return {'logs': logs, 'res': res, 'mode': '', 'admin': '',
             'page': page, 'count': count}
+
+
+@view_config(route_name='login', renderer='admin_login.mak')
+def show_login(request):
+
+    return {'test': 'test'}
