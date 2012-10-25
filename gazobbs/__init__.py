@@ -38,7 +38,6 @@ def main(global_config, **settings):
     config.add_route('img', '/img/{file_name}')
     config.add_route('regist', '/regist')
     config.add_route('user_del', '/userdel')
-    config.add_route('login', '/login')
 
     #static
     config.add_static_view(name='', path='static', cache_max_age=3600)
